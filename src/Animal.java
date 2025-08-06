@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
 
     private String Name;
 
@@ -16,19 +16,19 @@ public class Animal {
     }
 
 
-    public void makeNoise(){
-        System.out.println(getName()+" is making noise.");
-    }
+    public abstract void makeNoise();
+    //    System.out.println(getName()+" is making noise.");
 
-    public void roam(){
-        System.out.println(getName()+" is roaming");
-    }
 
-    public void eat(){
-        System.out.println(getName()+" eating food");
-    }
+    public abstract void roam();
+    //    System.out.println(getName()+" is roaming");
 
-    public void play(){
-        System.out.println(getName() + " is playing");
-    }
+
+    public abstract void eat();
+//        System.out.println(getName()+" eating food");
+
+
+    public abstract void play();
+    //    System.out.println(getName() + " is playing");
+
 }
