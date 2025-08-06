@@ -10,6 +10,14 @@ public class Main {
         pr.makeNoise();
         pr.play();
         pr.roam();
+        pr.sleep();
+
+
+        Animal an =new Cat("Slep");
+       // an.sleep();
+
+        Cat ct = (Cat)an;
+        ct.sleep();
 
        d.play();
        c.jump();

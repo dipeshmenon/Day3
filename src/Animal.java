@@ -15,6 +15,10 @@ public abstract class Animal {
         this.Name = Name;
     }
 
+    public void sleep(){
+        System.out.println(getName() + " is sleeping");
+    }
+
 
     public abstract void makeNoise();
     //    System.out.println(getName()+" is making noise.");
